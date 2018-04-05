@@ -84,9 +84,18 @@ var southWest = L.latLng(21.284438,-131.265625),
     northEast = L.latLng(51.606163, -62.929688),
     bounds = L.latLngBounds(southWest, northEast);
 
-var map = L.mapbox.map('map', 'mapbox.streets', {}).setView([16.402333, 120.596007], 12);
+var map = L.mapbox.map('map', 'omniusnow.lcfl92fp', {
+    // set that bounding box as maxBounds to restrict moving the map
+    // see full maxBounds documentation:
+    // http://leafletjs.com/reference.html#map-maxbounds
+    maxBounds: bounds,
+    maxZoom: 16,
+    minZoom: 5
+});
 
 // zoom the map to that bounding box
+map.fitBounds(bounds);
+
 
 var myLayer = L.mapbox.featureLayer().addTo(map);
 
@@ -94,7 +103,7 @@ var geoJson = [{
     "type": "Feature",
     "geometry": {
         "type": "Point",
-        "coordinates": [120.578325, 16.411615]
+        "coordinates": [-80.190583, 25.767619]
     },
     "properties": {
         "title": "Test location",
@@ -121,7 +130,7 @@ var geoJson = [{
     "type": "Feature",
     "geometry": {
         "type": "Point",
-        "coordinates": [120.599572, 16.391066]
+        "coordinates": [-82.356899, 29.633012]
     },
     "properties": {
         "title": "Test location 2",
@@ -222,7 +231,7 @@ $('.menu-ui a').on('click', function() {
         // If the data-filter attribute is set to "all", return
         // all (true). Otherwise, filter on markers that have
         // a value set to true based on the filter name.
-        return (filter === 'all') ? true : f.properties[filter] === true;
+        return (filter === 'Development') ? true : f.properties[filter] === true;
     });
     return false;
 });
