@@ -1,6 +1,6 @@
 L.mapbox.accessToken = 'pk.eyJ1Ijoib21uaXVzbm93IiwiYSI6ImFlZ0pNSXMifQ.VNyOy9GaRZ1cAS2nDTp3tw';
 
-var map = L.mapbox.map('map', 'mapbox.streets', {scrollWheelZoom: false}).setView([16.402333, 120.596007], 12);
+var map = L.mapbox.map('map', 'mapbox.streets', {scrollWheelZoom: false}).setView([16.402333, 120.596007], 14);
 
 // zoom the map to that bounding box
 
@@ -10,75 +10,387 @@ var geoJson = [{
     "type": "Feature",
     "geometry": {
         "type": "Point",
-        "coordinates": [120.578325, 16.411615]
+        "coordinates": [120.598262, 16.411478]
     },
     "properties": {
-        "title": "Hospitals location",
-//this should let the button code know whether this is a FireStation or a 
-//Police catagory, IT IS CASE SENSATIVE!!
-		 "FireStation":true,
-		 "Police":false,
+        "title": "Police, Luneta Hill Dr, Baguio, Benguet",
+        //this should let the button code know whether this is a FireStation or a 
+        //Police catagory, IT IS CASE SENSATIVE!!
+        "FireStation":false,
+        "Police":true,
         "Hospitals":false,
         "icon": {
-            "iconUrl": "http://www.pngall.com/wp-content/uploads/2017/05/Map-Marker-Transparent.png",
-            "iconSize": [60,50], // size of the icon
+            "iconUrl": "js/markers/police.png",
+            "iconSize": [25,40], // size of the icon
             "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
             "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
             "className": "dot"
 			
         },
 		'images': [
-          ['http://upload.wikimedia.org/wikipedia/commons/0/04/Garfield_Building_Detroit.jpg','<p><b>Descriptive text goes here']
+          ['http://upload.wikimedia.org/wikipedia/commons/0/04/Garfield_Building_Detroit.jpg','<p><b>Descriptive text goes here</b></p>']
         ]
 		
     }
-},{
+} ,{
     "type": "Feature",
     "geometry": {
         "type": "Point",
-        "coordinates": [120.599572, 16.391066]
+        "coordinates": [120.596429, 16.416112]
+
     },
     "properties": {
-        "title": "Hospitals location 2",
+        "title": "Baguio City Police Office Compac 3, Staion 7, 67-69 Lower Bonifacio St, Baguio, Benguet",
 		 "FireStation":false,
 		 "Police":true,
         "Hospitals":false,
        "icon": {
-            "iconUrl": "http://www.pngall.com/wp-content/uploads/2017/05/Map-Marker-PNG-HD.png",
-            "iconSize": [50,50], // size of the icon
+            "iconUrl": "js/markers/police.png",
+            "iconSize": [25,40], // size of the icon
             "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
             "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
             "className": "dot"
 			
         },
 		'images': [
-          ['http://upload.wikimedia.org/wikipedia/commons/0/04/Garfield_Building_Detroit.jpg','<p><b>Descriptive text goes here'],
+          ['http://upload.wikimedia.org/wikipedia/commons/0/04/Garfield_Building_Detroit.jpg','<p><b>Descriptive text goes here</b></p>']
         ]
     }
 
-},{
+} ,{
     "type": "Feature",
     "geometry": {
         "type": "Point",
-        "coordinates": [120.499572, 16.391066]
+        "coordinates": [120.592413, 16.41446]
+
     },
     "properties": {
-        "title": "Hospitals location 3",
+        "title": "Baguio City Crime Laboratory Office, 105 Kayang St, Baguio, 2600 Benguet",
 		 "FireStation":false,
-		 "Police":false,
-        "Hospitals":true,
+		 "Police":true,
+        "Hospitals":false,
        "icon": {
-            "iconUrl": "https://cdn1.iconfinder.com/data/icons/Map-Markers-Icons-Demo-PNG/256/Map-Marker-Flag--Chartreuse.png",
-            "iconSize": [50,50], // size of the icon
+            "iconUrl": "js/markers/police.png",
+            "iconSize": [25,40], // size of the icon
             "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
             "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
             "className": "dot"
 			
         },
 		'images': [
-          ['http://upload.wikimedia.org/wikipedia/commons/0/04/Garfield_Building_Detroit.jpg','<p><b>Descriptive text goes here']
+          ['http://upload.wikimedia.org/wikipedia/commons/0/04/Garfield_Building_Detroit.jpg','<p><b>Descriptive text goes here</b></p>']
         ]
-		
+    }
+
+} ,{
+    "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [120.59972, 16.421931]
+
+    },
+    "properties": {
+        "title": "Rimando Police Station, Manuel Roxas, Baguio, Benguet",
+		 "FireStation":false,
+		 "Police":true,
+        "Hospitals":false,
+       "icon": {
+            "iconUrl": "js/markers/police.png",
+            "iconSize": [25,40], // size of the icon
+            "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
+            "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
+            "className": "dot"
+        },
+		'images': [
+          ['http://upload.wikimedia.org/wikipedia/commons/0/04/Garfield_Building_Detroit.jpg','<p><b>Descriptive text goes here</b></p>']
+        ]
+    }
+
+} ,{
+    "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [120.593155, 16.424948]
+    },
+    "properties": {
+        "title": "Baguio Police Precinct 2, Under the Flyover,, Magsaysay Ave, Baguio, Benguet",
+		 "FireStation":false,
+		 "Police":true,
+        "Hospitals":false,
+       "icon": {
+            "iconUrl": "js/markers/police.png",
+            "iconSize": [25,40], // size of the icon
+            "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
+            "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
+            "className": "dot"
+        },
+		'images': [
+          ['http://upload.wikimedia.org/wikipedia/commons/0/04/Garfield_Building_Detroit.jpg','<p><b>Descriptive text goes here</b></p>']
+        ]
+    }
+
+} ,{
+    "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [120.61451, 16.422939]
+    },
+    "properties": {
+        "title": "STATION 3, Pacdal Cir, Baguio, Benguet",
+		 "FireStation":false,
+		 "Police":true,
+        "Hospitals":false,
+       "icon": {
+            "iconUrl": "js/markers/police.png",
+            "iconSize": [25,40], // size of the icon
+            "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
+            "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
+            "className": "dot"
+			
+        },
+		'images': [
+          ['http://upload.wikimedia.org/wikipedia/commons/0/04/Garfield_Building_Detroit.jpg','<p><b>Descriptive text goes here</b></p>']
+        ]
+    }
+
+} ,{
+    "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [120.600087, 16.391889]
+    },
+    "properties": {
+        "title": "POLICE PRECINT No.8, Kennon Rd, Baguio, Benguet",
+		 "FireStation":false,
+		 "Police":true,
+        "Hospitals":false,
+       "icon": {
+            "iconUrl": "js/markers/police.png",
+            "iconSize": [25,40], // size of the icon
+            "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
+            "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
+            "className": "dot"
+			
+        },
+		'images': [
+          ['http://upload.wikimedia.org/wikipedia/commons/0/04/Garfield_Building_Detroit.jpg','<p><b>Descriptive text goes here</b></p>']
+        ]
+    }
+
+} ,{
+    "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [120.57884, 16.412767]
+    },
+    "properties": {
+        "title": "POLICE STATION 1, Naguilian Rd, Baguio, Benguet",
+		 "FireStation":false,
+		 "Police":true,
+        "Hospitals":false,
+       "icon": {
+            "iconUrl": "js/markers/police.png",
+            "iconSize": [25,40], // size of the icon
+            "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
+            "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
+            "className": "dot"
+			
+        },
+		'images': [
+          ['http://upload.wikimedia.org/wikipedia/commons/0/04/Garfield_Building_Detroit.jpg','<p><b>Descriptive text goes here</b></p>']
+        ]
+    }
+
+} ,{
+    "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [120.581503, 16.402725]
+    },
+    "properties": {
+        "title": "Baguio Police Precinct 10, Marcos Highway 2, Baguio City, Benguet",
+		 "FireStation":false,
+		 "Police":true,
+        "Hospitals":false,
+       "icon": {
+            "iconUrl": "js/markers/police.png",
+            "iconSize": [25,40], // size of the icon
+            "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
+            "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
+            "className": "dot"
+			
+        },
+		'images': [
+          ['http://upload.wikimedia.org/wikipedia/commons/0/04/Garfield_Building_Detroit.jpg','<p><b>Descriptive text goes here</b></p>']
+        ]
+    }
+
+} ,{
+    "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [120.607286, 16.374975]
+    },
+    "properties": {
+        "title": "Police Station 8, Kennon Rd, Baguio, 2600 Benguet",
+		 "FireStation":false,
+		 "Police":true,
+        "Hospitals":false,
+       "icon": {
+            "iconUrl": "js/markers/police.png",
+            "iconSize": [25,40], // size of the icon
+            "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
+            "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
+            "className": "dot"
+			
+        },
+		'images': [
+          ['http://upload.wikimedia.org/wikipedia/commons/0/04/Garfield_Building_Detroit.jpg','<p><b>Descriptive text goes here</b></p>']
+        ]
+    }
+
+} ,{
+    "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [120.597602, 16.409604]
+    },
+    "properties": {
+        "title": "Commission on Elections, Gov. Pack Rd, Baguio, Benguet",
+		 "FireStation":false,
+		 "Police":true,
+        "Hospitals":false,
+       "icon": {
+            "iconUrl": "js/markers/police.png",
+            "iconSize": [25,40], // size of the icon
+            "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
+            "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
+            "className": "dot"
+			
+        },
+		'images': [
+          ['http://upload.wikimedia.org/wikipedia/commons/0/04/Garfield_Building_Detroit.jpg','<p><b>Descriptive text goes here</b></p>']
+        ]
+    }
+
+} ,{
+    "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [120.601432, 16.407411]
+    },
+    "properties": {
+        "title": "DEPARTMENT OF INTERIOR AND LOCAL GOVERNMENT, 125 North Dr, Baguio, Benguet",
+		 "FireStation":false,
+		 "Police":true,
+        "Hospitals":false,
+       "icon": {
+            "iconUrl": "js/markers/police.png",
+            "iconSize": [25,40], // size of the icon
+            "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
+            "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
+            "className": "dot"
+			
+        },
+		'images': [
+          ['http://upload.wikimedia.org/wikipedia/commons/0/04/Garfield_Building_Detroit.jpg','<p><b>Descriptive text goes here</b></p>']
+        ]
+    }
+
+} ,{
+    "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [120.591366, 16.414553]
+    },
+    "properties": {
+        "title": "CITY DISASTER RISK REDUCTION MANAGEMENT COUNCIL, City Hall Loop, Baguio, Benguet",
+		 "FireStation":false,
+		 "Police":true,
+        "Hospitals":false,
+       "icon": {
+            "iconUrl": "js/markers/police.png",
+            "iconSize": [25,40], // size of the icon
+            "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
+            "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
+            "className": "dot"
+			
+        },
+		'images': [
+          ['http://upload.wikimedia.org/wikipedia/commons/0/04/Garfield_Building_Detroit.jpg','<p><b>Descriptive text goes here</b></p>']
+        ]
+    }
+
+} ,{
+    "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [120.592998, 16.401553]
+    },
+    "properties": {
+        "title": "BCPO Station, Worcester Rd, Baguio, Benguet",
+		 "FireStation":false,
+		 "Police":true,
+        "Hospitals":false,
+       "icon": {
+            "iconUrl": "js/markers/police.png",
+            "iconSize": [25,40], // size of the icon
+            "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
+            "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
+            "className": "dot"
+			
+        },
+		'images': [
+          ['http://upload.wikimedia.org/wikipedia/commons/0/04/Garfield_Building_Detroit.jpg','<p><b>Descriptive text goes here</b></p>']
+        ]
+    }
+
+} ,{
+    "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [120.598028, 16.412165]
+    },
+    "properties": {
+        "title": "Mines & Geosciences Bureau, Cordillera Administrative Region, 80 Diego Silang St, Barangay Kabayanihan, Baguio, 2600 Benguet",
+		 "FireStation":false,
+		 "Police":true,
+        "Hospitals":false,
+       "icon": {
+            "iconUrl": "js/markers/police.png",
+            "iconSize": [25,40], // size of the icon
+            "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
+            "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
+            "className": "dot"
+			
+        },
+		'images': [
+          ['http://upload.wikimedia.org/wikipedia/commons/0/04/Garfield_Building_Detroit.jpg','<p><b>Descriptive text goes here</b></p>']
+        ]
+    }
+
+} ,{
+    "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [120.588986, 16.450278]
+    },
+    "properties": {
+        "title": "La Trinidad Municipal Police Station, La Trinidad, Benguet",
+		 "FireStation":false,
+		 "Police":true,
+        "Hospitals":false,
+       "icon": {
+            "iconUrl": "js/markers/police.png",
+            "iconSize": [25,40], // size of the icon
+            "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
+            "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
+            "className": "dot"
+			
+        },
+		'images': [
+          ['http://upload.wikimedia.org/wikipedia/commons/0/04/Garfield_Building_Detroit.jpg','<p><b>Descriptive text goes here</b></p>']
+        ]
     }
 
 }];
