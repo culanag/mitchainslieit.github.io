@@ -1,6 +1,6 @@
 L.mapbox.accessToken = 'pk.eyJ1Ijoib21uaXVzbm93IiwiYSI6ImFlZ0pNSXMifQ.VNyOy9GaRZ1cAS2nDTp3tw';
 
-var map = L.mapbox.map('map', 'mapbox.streets', {scrollWheelZoom: false}).setView([16.402333, 120.596007], 14);
+var map = L.mapbox.map('map', 'mapbox.streets', {scrollWheelZoom: false}).setView([16.402439, 120.599537], 14);
 
 // zoom the map to that bounding box
 
@@ -23,7 +23,7 @@ var geoJson = [
         "Hospitals":false,
         "icon": {
             "iconUrl": "js/markers/police.png",
-            "iconSize": [25,40], // size of the icon
+            "iconSize": [20,35], // size of the icon
             "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
             "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
             "className": "dot"
@@ -48,7 +48,8 @@ var geoJson = [
         "Hospitals":false,
        "icon": {
             "iconUrl": "js/markers/police.png",
-            "iconSize": [25,40], // size of the icon
+            "iconUrl": "js/markers/police.png",
+            "iconSize": [20,35], // size of the icon
             "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
             "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
             "className": "dot"
@@ -73,7 +74,7 @@ var geoJson = [
         "Hospitals":false,
        "icon": {
             "iconUrl": "js/markers/police.png",
-            "iconSize": [25,40], // size of the icon
+            "iconSize": [20,35], // size of the icon
             "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
             "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
             "className": "dot"
@@ -98,7 +99,7 @@ var geoJson = [
         "Hospitals":false,
        "icon": {
             "iconUrl": "js/markers/police.png",
-            "iconSize": [25,40], // size of the icon
+            "iconSize": [20,35], // size of the icon
             "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
             "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
             "className": "dot"
@@ -121,7 +122,7 @@ var geoJson = [
         "Hospitals":false,
        "icon": {
             "iconUrl": "js/markers/police.png",
-            "iconSize": [25,40], // size of the icon
+            "iconSize": [20,35], // size of the icon
             "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
             "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
             "className": "dot"
@@ -144,7 +145,7 @@ var geoJson = [
         "Hospitals":false,
        "icon": {
             "iconUrl": "js/markers/police.png",
-            "iconSize": [25,40], // size of the icon
+            "iconSize": [20,35], // size of the icon
             "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
             "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
             "className": "dot"
@@ -168,7 +169,7 @@ var geoJson = [
         "Hospitals":false,
        "icon": {
             "iconUrl": "js/markers/police.png",
-            "iconSize": [25,40], // size of the icon
+            "iconSize": [20,35], // size of the icon
             "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
             "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
             "className": "dot"
@@ -192,7 +193,7 @@ var geoJson = [
         "Hospitals":false,
        "icon": {
             "iconUrl": "js/markers/police.png",
-            "iconSize": [25,40], // size of the icon
+            "iconSize": [20,35], // size of the icon
             "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
             "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
             "className": "dot"
@@ -216,7 +217,7 @@ var geoJson = [
         "Hospitals":false,
        "icon": {
             "iconUrl": "js/markers/police.png",
-            "iconSize": [25,40], // size of the icon
+            "iconSize": [20,35], // size of the icon
             "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
             "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
             "className": "dot"
@@ -240,7 +241,7 @@ var geoJson = [
         "Hospitals":false,
        "icon": {
             "iconUrl": "js/markers/police.png",
-            "iconSize": [25,40], // size of the icon
+            "iconSize": [20,35], // size of the icon
             "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
             "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
             "className": "dot"
@@ -264,7 +265,7 @@ var geoJson = [
         "Hospitals":false,
        "icon": {
             "iconUrl": "js/markers/police.png",
-            "iconSize": [25,40], // size of the icon
+            "iconSize": [20,35], // size of the icon
             "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
             "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
             "className": "dot"
@@ -288,7 +289,7 @@ var geoJson = [
         "Hospitals":false,
        "icon": {
             "iconUrl": "js/markers/police.png",
-            "iconSize": [25,40], // size of the icon
+            "iconSize": [20,35], // size of the icon
             "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
             "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
             "className": "dot"
@@ -312,7 +313,7 @@ var geoJson = [
         "Hospitals":false,
        "icon": {
             "iconUrl": "js/markers/police.png",
-            "iconSize": [25,40], // size of the icon
+            "iconSize": [20,35], // size of the icon
             "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
             "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
             "className": "dot"
@@ -336,7 +337,7 @@ var geoJson = [
         "Hospitals":false,
        "icon": {
             "iconUrl": "js/markers/police.png",
-            "iconSize": [25,40], // size of the icon
+            "iconSize": [20,35], // size of the icon
             "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
             "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
             "className": "dot"
@@ -360,7 +361,7 @@ var geoJson = [
         "Hospitals":false,
        "icon": {
             "iconUrl": "js/markers/police.png",
-            "iconSize": [25,40], // size of the icon
+            "iconSize": [20,35], // size of the icon
             "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
             "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
             "className": "dot"
@@ -384,7 +385,7 @@ var geoJson = [
         "Hospitals":false,
        "icon": {
             "iconUrl": "js/markers/police.png",
-            "iconSize": [25,40], // size of the icon
+            "iconSize": [20,35], // size of the icon
             "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
             "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
             "className": "dot"
@@ -408,7 +409,7 @@ var geoJson = [
         "Hospitals":false,
        "icon": {
             "iconUrl": "js/markers/police.png",
-            "iconSize": [25,40], // size of the icon
+            "iconSize": [20,35], // size of the icon
             "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
             "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
             "className": "dot"
@@ -432,7 +433,7 @@ var geoJson = [
         "Hospitals":false,
        "icon": {
             "iconUrl": "js/markers/police.png",
-            "iconSize": [25,40], // size of the icon
+            "iconSize": [20,35], // size of the icon
             "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
             "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
             "className": "dot"
@@ -456,7 +457,7 @@ var geoJson = [
         "Hospitals":false,
        "icon": {
             "iconUrl": "js/markers/police.png",
-            "iconSize": [25,40], // size of the icon
+            "iconSize": [20,35], // size of the icon
             "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
             "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
             "className": "dot"
@@ -480,7 +481,7 @@ var geoJson = [
         "Hospitals":false,
        "icon": {
             "iconUrl": "js/markers/police.png",
-            "iconSize": [25,40], // size of the icon
+            "iconSize": [20,35], // size of the icon
             "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
             "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
             "className": "dot"
@@ -504,7 +505,7 @@ var geoJson = [
         "Hospitals":false,
        "icon": {
             "iconUrl": "js/markers/police.png",
-            "iconSize": [25,40], // size of the icon
+            "iconSize": [20,35], // size of the icon
             "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
             "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
             "className": "dot"
@@ -530,7 +531,7 @@ var geoJson = [
         "Hospitals":false,
        "icon": {
             "iconUrl": "js/markers/firestation.png",
-            "iconSize": [25,40], // size of the icon
+            "iconSize": [20,35], // size of the icon
             "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
             "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
             "className": "dot"
@@ -554,7 +555,7 @@ var geoJson = [
         "Hospitals":false,
        "icon": {
             "iconUrl": "js/markers/firestation.png",
-            "iconSize": [25,40], // size of the icon
+            "iconSize": [20,35], // size of the icon
             "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
             "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
             "className": "dot"
@@ -578,7 +579,7 @@ var geoJson = [
         "Hospitals":false,
        "icon": {
             "iconUrl": "js/markers/firestation.png",
-            "iconSize": [25,40], // size of the icon
+            "iconSize": [20,35], // size of the icon
             "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
             "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
             "className": "dot"
@@ -602,7 +603,7 @@ var geoJson = [
         "Hospitals":false,
        "icon": {
             "iconUrl": "js/markers/firestation.png",
-            "iconSize": [25,40], // size of the icon
+            "iconSize": [20,35], // size of the icon
             "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
             "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
             "className": "dot"
@@ -628,7 +629,7 @@ var geoJson = [
         "Hospitals":true,
        "icon": {
             "iconUrl": "js/markers/hospital.png",
-            "iconSize": [25,40], // size of the icon
+            "iconSize": [20,35], // size of the icon
             "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
             "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
             "className": "dot"
@@ -652,7 +653,7 @@ var geoJson = [
         "Hospitals":true,
        "icon": {
             "iconUrl": "js/markers/hospital.png",
-            "iconSize": [25,40], // size of the icon
+            "iconSize": [20,35], // size of the icon
             "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
             "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
             "className": "dot"
@@ -676,7 +677,7 @@ var geoJson = [
         "Hospitals":true,
        "icon": {
             "iconUrl": "js/markers/hospital.png",
-            "iconSize": [25,40], // size of the icon
+            "iconSize": [20,35], // size of the icon
             "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
             "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
             "className": "dot"
@@ -700,7 +701,7 @@ var geoJson = [
         "Hospitals":true,
        "icon": {
             "iconUrl": "js/markers/hospital.png",
-            "iconSize": [25,40], // size of the icon
+            "iconSize": [20,35], // size of the icon
             "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
             "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
             "className": "dot"
@@ -724,7 +725,7 @@ var geoJson = [
         "Hospitals":true,
        "icon": {
             "iconUrl": "js/markers/hospital.png",
-            "iconSize": [25,40], // size of the icon
+            "iconSize": [20,35], // size of the icon
             "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
             "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
             "className": "dot"
@@ -748,7 +749,7 @@ var geoJson = [
         "Hospitals":true,
        "icon": {
             "iconUrl": "js/markers/hospital.png",
-            "iconSize": [25,40], // size of the icon
+            "iconSize": [20,35], // size of the icon
             "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
             "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
             "className": "dot"
@@ -772,7 +773,7 @@ var geoJson = [
         "Hospitals":true,
        "icon": {
             "iconUrl": "js/markers/hospital.png",
-            "iconSize": [25,40], // size of the icon
+            "iconSize": [20,35], // size of the icon
             "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
             "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
             "className": "dot"
@@ -796,7 +797,7 @@ var geoJson = [
         "Hospitals":true,
        "icon": {
             "iconUrl": "js/markers/hospital.png",
-            "iconSize": [25,40], // size of the icon
+            "iconSize": [20,35], // size of the icon
             "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
             "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
             "className": "dot"
@@ -820,7 +821,7 @@ var geoJson = [
         "Hospitals":true,
        "icon": {
             "iconUrl": "js/markers/hospital.png",
-            "iconSize": [25,40], // size of the icon
+            "iconSize": [20,35], // size of the icon
             "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
             "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
             "className": "dot"
@@ -844,7 +845,7 @@ var geoJson = [
         "Hospitals":true,
        "icon": {
             "iconUrl": "js/markers/hospital.png",
-            "iconSize": [25,40], // size of the icon
+            "iconSize": [20,35], // size of the icon
             "iconAnchor": [50,50], // point of the icon which will correspond to marker's location
             "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
             "className": "dot"
