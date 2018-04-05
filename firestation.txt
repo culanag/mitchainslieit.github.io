@@ -1,0 +1,13 @@
+BAGUIO CITY FIRE STATION
+
+1. Baguio City Central Fire Station, 1 Corner Abanao and Kayang Streets, Baguio, 2600 Benguet
+16.415674, 120.591657
+
+2. Irisan Fire Station, Baguio, Benguet
+16.423179, 120.556912
+
+3.Aurora Hill FIRE STATION, North Central, Baguio, 2600 Benguet
+16.428119, 120.605321
+
+4. CRASH FIRE RESCUE UNIT, Baguio, Benguet
+16.398624, 120.623852
