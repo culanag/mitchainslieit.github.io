@@ -1,10 +1,18 @@
 html, body {
     height: 100%;
     margin: 0;
+    padding: 0;
 }
 
 *, ::after, ::before {
     box-sizing: border-box;
+}
+
+.map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 .container-fluid {
@@ -51,3 +59,14 @@ html, body {
 
 .bg-danger { background-color: #dc3545 !important; }
 .bg-dark { background-color: #4f70ce !important; }
+.popup { text-align:center; }
+.popup .slideshow .image { display:none; }
+.popup .slideshow .image.active { display:block; }
+.popup .slideshow img { width:100%; }
+.popup .cycle { padding:10px 0 20px; }
+.popup .cycle a.prev { float:left; }
+.popup .cycle a.next { float:right; }
+.popup .slideshow .caption {
+    background:#eee;
+    padding:10px;
+}
